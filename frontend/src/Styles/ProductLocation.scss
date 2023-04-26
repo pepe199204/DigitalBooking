@@ -1,0 +1,35 @@
+@import '../variables';
+
+.product-location {
+  background-color: rgba(196, 196, 196, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 2.5vw;
+}
+.loc-left {
+  display: flex;
+  align-items: center;
+  color: $second-color;
+  img {
+    margin-right: 1vw;
+  }
+}
+.loc-right {
+  display: flex;
+  align-items: center;
+}
+.puntuacion {
+  background-color: $second-color;
+  color: $white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-left: 1vw;
+}
+.share {
+  margin: 20px 2.5vw 10px;
+  img {
+    margin-right: 1vw;
+    width: 30px;
+  }
+}

@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Merriweather|Josefin+Slab|Oswald|Bree+Serif);
+.booking-summary {
+  background-color: white;
+  margin: 68px 20px;
+  border: 1px solid #aeaeae;
+  border-radius: 1rem;
+  position: relative;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+}
+.booking-summary h2 {
+  margin-left: 2vw;
+}
+.booking-summary img {
+  border-radius: 0;
+}
+.booking-summary div {
+  margin: 0 2vw;
+}
+.booking-summary .summary-line {
+  width: 90%;
+  margin-left: 5%;
+  background-color: rgba(196, 196, 196, 0.1);
+  height: 0.01px;
+}
+.booking-summary .summary-check {
+  margin-left: 6%;
+}
+.booking-summary .button3 {
+  width: 90%;
+  margin: 40px 5% 20px;
+  text-decoration: none;
+}
+.booking-summary .stars {
+  margin: 0;
+}
+.booking-summary .check-box {
+  display: flex;
+  justify-content: space-between;
+}

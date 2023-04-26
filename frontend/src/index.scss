@@ -1,0 +1,19 @@
+@import './variables';
+@import './normalize';
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  // hide scrollbar
+  -ms-overflow-style: none; /* Edge, Internet Explorer */
+  scrollbar-width: none; /* Firefox */
+  overflow-y: scroll;
+}
+// hides scrollbars while allowing to scroll
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+

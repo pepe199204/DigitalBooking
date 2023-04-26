@@ -1,0 +1,10 @@
+@import '../variables';
+
+.product-description h2 {
+  color: $second-color;
+}
+.product-description p {
+  margin: 0px 2.5vw;
+  color: $third-color;
+  margin-bottom: 30px;
+}

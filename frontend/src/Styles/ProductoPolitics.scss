@@ -1,0 +1,28 @@
+@import '../variables';
+
+.politicas h2 {
+  color: $second-color;
+}
+.politicas {
+  margin-bottom: 100px;
+}
+.rules {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 2.5vw;
+  justify-content: flex-start;
+}
+
+.div-rules {
+  width: 30vw;
+  @media screen and (max-width: $medium) {
+    width: 45vw;
+  }
+  @media screen and (max-width: $small) {
+    width: 90vw;
+  }
+}
+.linea-producto {
+  width: 100%;
+  background-color: $first-color;
+}

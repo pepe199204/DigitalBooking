@@ -1,0 +1,25 @@
+@import '../variables';
+
+.caract-container {
+  margin: 0px 2.5vw;
+  display: flex;
+  flex-wrap: wrap;
+  p {
+    width: 22vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 7px;
+    }
+    @media screen and (max-width: $medium) {
+      width: 30vw;
+    }
+    @media screen and (max-width: $small) {
+      width: 45vw;
+    }
+  }
+}
+.titulo-carcat h2 {
+  color: $second-color;
+}

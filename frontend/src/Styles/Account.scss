@@ -1,0 +1,98 @@
+@import '../variables';
+
+.account-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(196, 196, 196, 0.1);
+  height: 100vh;
+  h2 {
+    margin-left: 0;
+    color: $first-color;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    .button3 {
+      @media screen and (min-width: $medium) {
+        width: 50%;
+      }
+      .form-mail {
+        width: 60vw;
+      }
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      justify-content: space-between;
+    }
+  }
+}
+
+.account-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  .form-name {
+    @media screen and (min-width: $medium) {
+      flex-direction: row;
+      .name {
+        width: 48%;
+      }
+      .surname {
+        width: 48%;
+      }
+    }
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: $medium) {
+      width: 40vw;
+    }
+    @media screen and (max-width: $small) {
+      width: 90vw;
+    }
+  }
+  label {
+    color: $second-color;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  input {
+    width: 60vw;
+    @media screen and (min-width: $medium) {
+      width: 100%;
+    }
+    @media screen and (max-width: $small) {
+      width: 90vw;
+    }
+  }
+}
+
+.surname {
+  margin-top: 3px;
+}
+.error-messages {
+  color: red;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  color: $first-color;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}

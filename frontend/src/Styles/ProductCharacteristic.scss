@@ -1,0 +1,90 @@
+@import '../variables';
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Merriweather|Josefin+Slab|Oswald|Bree+Serif);
+
+.facilities h2 {
+  padding-top: 25px;
+  margin-left: 0px;
+}
+
+.characteristics-container {
+  background-color: rgba(196, 196, 196, 0.1);
+
+  box-shadow: $shadow-box;
+  border-radius: 8px;
+  padding: 10px 15px;
+
+  /* margin: 0px 2.5vw; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  /* width: 100%; */
+
+  /* grid-template: 100px / repeat(auto-fill, 1fr); */
+  /* display: grid; SACANDO ESTO ES RESPONSIVE LOS CHECKBOX */
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.characteristics-container p {
+  width: 22vw;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  @media (max-width: 468px){
+    width:40%;
+  }
+}
+.characteristics-container p img {
+  margin-right: 7px;
+}
+
+.characteristic {
+  display: flex;
+  flex-direction: row;
+  @media (max-width: 850px){
+    width:35vw;
+    justify-content: space-around;
+  }
+  @media (max-width: 468px){
+    width:80vw;
+    justify-content: space-around;
+  }
+
+}
+.new-caract-create {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 80vw;
+  @media (max-width: 468px){
+    flex-wrap: wrap;
+  }
+
+  .agregar-atributos {
+    font-size: 38px;
+    background-color: $first-color;
+    color: white;
+    border-radius: 5px;
+    padding: 0px 10px;
+    height: 42px;
+    margin-top: 18px;
+    width: 23px;
+  }
+  .new-caract-create-name {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+    .new-caract-create-icon {
+      display: flex;
+      flex-direction: column;
+    width: 50%;
+    }
+}
+
+.new-caract-name {
+  width: 60vw;
+}
+.new-caract-icon {
+
+    width: 100%;
+}

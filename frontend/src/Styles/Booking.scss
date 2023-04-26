@@ -1,0 +1,46 @@
+@import '../variables';
+
+.booking-info {
+  background-color: rgba(196, 196, 196, 0.5);
+  display: flex;
+
+  h2 {
+    padding-top: 20px;
+    margin-top: 0;
+  }
+  .confirmation-container {
+    margin: 25vh 0;
+    left: 25vw;
+    justify-self: center;
+    align-self: center;
+    background-color: white;
+    padding: 40px;
+    border: 1px solid #aeaeae;
+    border-radius: 1rem;
+    display: flex;
+    position: relative;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 40vw;
+    height: 30vh;
+    gap: 10px;
+    img {
+      height: 100px;
+      width: 100px;
+    }
+  }
+}
+.error-login {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgb(244, 203, 203);
+  align-items: center;
+  span {
+    background-color: rgb(242, 135, 135);
+    padding: 5px;
+    border-radius: 5px;
+  }
+}

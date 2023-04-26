@@ -1,0 +1,36 @@
+@import '../variables';
+
+.upload-image {
+  display: flex;
+  padding: 40px;
+  background-color: $fifth-color;
+  border-radius: 5px;
+  gap: 10px;
+  input {
+    width: 100%;
+  }
+  span {
+    font-size: 40px;
+    background-color: $first-color;
+    color: white;
+    border-radius: 5px;
+    padding: 0px 10px;
+  }
+}
+.uploader-main-cointainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cargar-imagenes {
+  text-align: left;
+  margin-left: 0;
+}
+.uploader-container {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+}
+#remove-button {
+  background-color: $second-color;
+}

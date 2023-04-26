@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-weight: lighter;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+  font-family: $font-main;
+  min-width: $extraSmall;
+}
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+input,
+button,
+submit,
+select {
+  border: none;
+}
+button {
+  font-weight: bold;
+}
+.button1 {
+  font-size: 14pt;
+}
+.button2 {
+  font-size: 16pt;
+}
+.text1 {
+  font-weight: normal;
+  font-size: 14pt;
+}
+.text2 {
+  font-weight: normal;
+  font-size: 12pt;
+}
+button:focus {
+  outline: 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 24pt;
+}
+h2 {
+  font-weight: bold;
+  font-size: 20pt;
+}
+h3 {
+  font-weight: bold;
+  font-size: 16pt;
+}
+h4 {
+  font-weight: bold;
+  font-size: 14pt;
+}
+.container {
+  display: flex;
+  width: 95vw;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.categoria-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 25vw;
+  margin-right: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.categoria-container img {
+  height: 250px;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: fill;
+}

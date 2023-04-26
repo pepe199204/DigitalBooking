@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Merriweather|Josefin+Slab|Oswald|Bree+Serif);
+h4,
+p {
+  margin: 0.27em 0;
+}
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.categoria-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 22.5vw;
+}
+.categoria-container img {
+  height: 100%;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: fill;
+}
+.categoria-description {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  padding: 8px;
+}
+.categoria-description p {
+  font-weight: normal;
+}
+@media screen and (max-width: 760px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+  }
+  .categoria-container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 45%;
+  }
+}
+@media screen and (max-width: 760px) and (max-width: 450px) {
+  .categoria-container {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .categoria-container img {
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: fill;
+  }
+}

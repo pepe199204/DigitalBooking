@@ -1,0 +1,35 @@
+@import '../variables';
+.container-list-recomendaciones {
+  background-color: $fifth-color;
+  padding-bottom: 100px;
+  h2 {
+    padding-top: 30px;
+    margin-bottom: 0;
+    margin-left: 35px;
+  }
+}
+.list {
+  /* display: flex; */
+  /* justify-content: center; */
+  margin-top: 10px;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  left: auto;
+  right: auto;
+  flex-wrap: wrap;
+  gap: 30px;
+  flex-direction: row;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}

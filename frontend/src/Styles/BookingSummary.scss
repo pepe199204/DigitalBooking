@@ -1,0 +1,40 @@
+@import '../variables';
+
+.booking-summary {
+  background-color: white;
+  margin: 68px 20px;
+  border: 1px solid #aeaeae;
+  border-radius: 1rem;
+  position: relative;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+  h2 {
+    margin-left: 2vw;
+  }
+  img {
+    border-radius: 0;
+  }
+  div {
+    margin: 0 2vw;
+  }
+  .summary-line {
+    width: 90%;
+    margin-left: 5%;
+    background-color: $fifth-color;
+    height: 0.01px;
+  }
+  .summary-check {
+    margin-left: 6%;
+  }
+  .button3 {
+    width: 90%;
+    margin: 40px 5% 20px;
+    text-decoration: none;
+  }
+  .stars {
+    margin: 0;
+  }
+  .check-box {
+    display: flex;
+    justify-content: space-between;
+  }
+}
